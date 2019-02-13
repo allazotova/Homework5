@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.aqacources.test'
+version '1.0-SNAPSHOT'
+
+// Version of Java
+sourceCompatibility = 1.8
+
+// Repository
+repositories {
+    mavenCentral()
+}
+
+// Our dependencies
+dependencies {
+    compile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+}
